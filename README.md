@@ -1,5 +1,5 @@
-# useful_linux_cmds
-Some useful linux commands I like
+# Useful Linux commands
+Some Linux commands I like
 
 - Redo last command as root: ```sudo !!```
 - Leave the process even if terminal is closed, no log: ```nohup command >/dev/null 2>&1 &```
