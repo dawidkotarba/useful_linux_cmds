@@ -2,7 +2,8 @@
 Some useful linux commands I like
 
 - Redo last command as root: ```sudo !!```
-- Exit terminal without killing actual processes: ``` disown -a && exit```
+- Leave the process even if terminal is closed, no log: ```nohup command >/dev/null 2>&1 &```
+- Exit terminal without killing actual processes, something if forgot about nohup: ``` disown -a && exit```
 - Skip the command from the history -> put space in the beginning of the command
 - Fix last command in the editor: ```fc```
 - Mount a fast ram disk:
